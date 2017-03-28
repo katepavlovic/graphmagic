@@ -21,5 +21,5 @@ setup(name="graphmagic",
       platforms='any',
       license='Apache 2.0',
       entry_points={
-          "console_scripts": [],
+          "console_scripts": ["graphmagic = graphmagic.main:main",],
       })
